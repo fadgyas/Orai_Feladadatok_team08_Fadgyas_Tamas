@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSC Feladatok</title>
+    <script src="megoldas.js"></script>
+</head>
+
+<body>
+    <script>
+        document.write("1.FELADAT<br>")
+        document.write(DiakInfo("Minta Márton", 8, true));
+        document.write("<br>")
+        document.write(DiakInfo("Minta József", 8, false));
+        document.write("<hr>")
+
+
+        document.write("2.FELADAT<br>")
+        let Ertekeles = szovegesErtekeles(2);
+        document.write(Ertekeles[0] + ",");
+        document.write(Ertekeles[1]);
+        document.write("<hr>")
+
+
+        document.write("3.FELADAT<br>")
+        document.write(harommalOszthatokSzama([10, 23, 12, 24, 31, 33, 42, 20]));
+        document.write("<hr>")
+    </script>
+
+</body>
+
+</html>
